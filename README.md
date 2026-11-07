@@ -51,6 +51,10 @@ The original download preserves response bytes and recognizes common extensions 
 - Host access is set to `<all_urls>` because an image can be hosted on any site and the offscreen extension page must fetch the user-selected image for conversion. Chrome prompts for this access when loading the extension.
 - The V1 menu handles one image per action. Bulk discovery and downloading are not included.
 
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE).
+
 ## Testing checklist
 
 Use sample images you are authorized to access. Verify the resulting file contents (for example, open them or inspect their signatures) and confirm each converted file opens as the selected format.
