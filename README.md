@@ -81,5 +81,3 @@ Use sample images you are authorized to access. Verify the resulting file conten
 **How to test:** follow the checklist above using representative images from each format and confirm converted data opens as its selected format.
 
 **Known limitations:** see the list above, especially decoder support, source access rules, and rasterizing animated/vector sources during conversion.
-
-**Next recommended step:** load V1 in Chrome and complete the format and URL test matrix before planning V2 bulk image support.
