@@ -68,7 +68,7 @@ chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
   processImage(message)
     .then(({ filename, objectUrl }) => sendResponse({ ok: true, filename, objectUrl }))
     .catch((error) => {
-      console.error('Image Save As Type:', error);
+      console.error('SavePix:', error);
       sendResponse({ ok: false, error: error.message || 'Image processing failed.' });
     });
   return true;

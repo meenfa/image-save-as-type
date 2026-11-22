@@ -1,6 +1,6 @@
-# Image Save As Type
+# SavePix: Save Images in Your Preferred Format
 
-Image Save As Type adds an image context menu that downloads the selected image in its original format or converts it to PNG, JPG, or WebP. Conversions encode new image data through the browser's image decoder and canvas; they do not rename the original bytes.
+SavePix adds an image context menu that downloads the selected image in its original format or converts it to PNG, JPG, or WebP. Conversions encode new image data through the browser's image decoder and canvas; they do not rename the original bytes.
 
 ## Technology
 
@@ -25,7 +25,6 @@ vite.config.js         Bundles the extension scripts
 ```
 
 ## Installation
-
 1. Install Node.js (LTS) if it is not already installed.
 2. In this project folder, run `npm install`.
 3. Run `npm run build`. Vite writes the loadable extension to `dist/`.
@@ -37,7 +36,7 @@ After rebuilding, return to `chrome://extensions` and press the extension's relo
 
 ## Use
 
-Right-click an image and choose **Save Image As Type**, then choose **Original**, **PNG**, **JPG**, or **WebP**. Chrome's save dialog lets you select the destination and filename. The extension uses `img.currentSrc` when available, so responsive image selections use the displayed source.
+Right-click an image and choose **SavePix: Save Images in Your Preferred Format**, then choose **Original**, **PNG**, **JPG**, or **WebP**. Chrome's save dialog lets you select the destination and filename. The extension uses `img.currentSrc` when available, so responsive image selections use the displayed source.
 
 ## Supported formats
 

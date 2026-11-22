@@ -1,8 +1,8 @@
-# Privacy Policy — Image Save As Type
+# Privacy Policy — SavePix: Save Images in Your Preferred Format
 
-**Last updated: November 17, 2026**
+**Last updated: November 22, 2026**
 
-Image Save As Type helps you download a webpage image in its original format or convert it to PNG, JPG, or WebP. This policy explains what information the extension uses when you choose one of its image menu options.
+SavePix helps you download a webpage image in its original format or convert it to PNG, JPG, or WebP. This policy explains what information the extension uses when you choose one of its image menu options.
 
 ## Information the extension processes
 

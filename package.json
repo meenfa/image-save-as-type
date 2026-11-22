@@ -1,6 +1,6 @@
 {
-  "name": "image-save-as-type",
-  "version": "1.0.0",
+  "name": "savepix-image-format-saver",
+  "version": "1.0.1",
   "private": true,
   "type": "module",
   "scripts": {

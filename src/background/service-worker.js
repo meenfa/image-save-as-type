@@ -10,7 +10,7 @@ let creatingOffscreen;
 
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.removeAll(() => {
-    chrome.contextMenus.create({ id: MENU_ROOT, title: 'Save Image As Type', contexts: ['image'] });
+    chrome.contextMenus.create({ id: MENU_ROOT, title: 'SavePix: Save Images in Your Preferred Format', contexts: ['image'] });
     for (const [format, title] of FORMATS) {
       chrome.contextMenus.create({ id: format, parentId: MENU_ROOT, title, contexts: ['image'] });
     }

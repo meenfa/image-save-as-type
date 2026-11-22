@@ -13,7 +13,7 @@ chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
     const host = document.createElement('div');
     const shadow = host.attachShadow({ mode: 'closed' });
     const notice = document.createElement('div');
-    notice.textContent = `Image Save As Type: ${message.error}`;
+    notice.textContent = `SavePix: ${message.error}`;
     Object.assign(notice.style, {
       position: 'fixed', zIndex: '2147483647', right: '16px', bottom: '16px',
       maxWidth: 'min(480px, calc(100vw - 32px))', padding: '12px 16px',
